@@ -28,7 +28,7 @@
     text-decoration: none;
  }
     
-.header_lang-link-ru {
+.header_lang-link-ru, .header_lang-link-en {
     text-decoration: underline;
 }
 
