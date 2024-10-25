@@ -43,10 +43,12 @@
 
 .lead__title {
     text-align: center;
+    margin: 5vh 0 0 0;
 }
 
 .lead__subtitle {
     text-align: center;
+    margin: 4vh 0 7vh 0;
 }
 
 .group {
@@ -100,6 +102,10 @@
     
     .lead__group__caption {
         margin-left: 20vw;
+    }
+    
+    .intro {
+        margin-left: 14.5vw; 
     }
 }
 
