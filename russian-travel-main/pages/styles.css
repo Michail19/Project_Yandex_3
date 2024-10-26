@@ -233,4 +233,8 @@
     .intro {
         margin-left: 1.5vw; 
     }
+    
+    .photo-grid {
+        margin: 10vh 2vw;
+    }
 }
