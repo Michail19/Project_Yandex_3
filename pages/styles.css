@@ -52,8 +52,8 @@
 }
 
 .group {
-    display: flex;
-    flex-flow: column;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
 }
 
 .lead__group__image {
@@ -80,6 +80,12 @@
     
 .photo-grid__item {
     width: 100%;
+}
+
+
+.place {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
 }
 
 
@@ -232,7 +238,6 @@
         margin-left: 2.5vw; 
     }
     
-    
     .intro {
         margin-left: 1.5vw; 
     }
@@ -242,8 +247,12 @@
     }
     
     .photo-grid {
-        margin: 10vh 2vw;
+        margin: 8vh 2vw;
         grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .places {
+        margin-left: 2vw; 
     }
 }
 
@@ -293,5 +302,9 @@
     .photo-grid {
         margin: 10vh 2vw;
         grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .places {
+        margin-left: 1.5vw; 
     }
 }
