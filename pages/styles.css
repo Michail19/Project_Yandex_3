@@ -60,7 +60,7 @@
     background-image: url(../images/lead-polka.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 100%; 
 }
 
 .lead__group__caption {
@@ -69,7 +69,17 @@
 
 
 .intro__title {
-    margin: 10vh 0 0 0;
+    margin: 15vh 0 0 0;
+}
+
+
+.photo-grid {
+    display: grid;
+    grid-gap: 2vh;
+}
+    
+.photo-grid__item {
+    width: 100%;
 }
 
 
@@ -112,6 +122,20 @@
     .intro {
         margin-left: 14.5vw; 
     }
+    
+    
+    .intro {
+        margin-left: 1.5vw; 
+    }
+    
+    .intro__text {
+        margin: 5vh 0;
+    }
+    
+    .photo-grid {
+        margin: 10vh 2vw;
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
 
 @media screen and (max-width: 1280px) and (min-width: 1024px) {
@@ -153,6 +177,20 @@
     .intro {
         margin-left: 4vw; 
     }
+    
+    
+    .intro {
+        margin-left: 1.5vw; 
+    }
+    
+    .intro__text {
+        margin: 5vh 0;
+    }
+    
+    .photo-grid {
+        margin: 10vh 2vw;
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
@@ -193,6 +231,20 @@
     .intro {
         margin-left: 2.5vw; 
     }
+    
+    
+    .intro {
+        margin-left: 1.5vw; 
+    }
+    
+    .intro__text {
+        margin: 5vh 0;
+    }
+    
+    .photo-grid {
+        margin: 10vh 2vw;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (max-width: 768px) and (min-width: 320px) {
@@ -227,14 +279,19 @@
     }
     
     .lead__group__caption {
-        margin-left: 2vw;
+        margin-left: 1.25vw;
     }
     
     .intro {
         margin-left: 1.5vw; 
     }
     
+    .intro__text {
+        margin: 5vh 0;
+    }
+    
     .photo-grid {
         margin: 10vh 2vw;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
