@@ -85,9 +85,13 @@
 
 .place {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 
+.place__image {
+    width: 100%;
+    height: 100%;
+}
 
 @media screen and (min-width: 1280px) {
     .header {
@@ -253,6 +257,34 @@
     
     .places {
         margin-left: 2vw; 
+    }
+    
+    .place__title {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    .place__image {
+        width: 100%;
+        height: 100%;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+    
+     .place__title {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+    
+    .place__website {
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
+    
+    .place__paragraph {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        align-self: start;
     }
 }
 
