@@ -1,0 +1,5 @@
+.photo-grid {
+    display: grid;
+    grid-gap: 2vh;
+}
+    

@@ -1,0 +1,7 @@
+.header {
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 2.25vh 2.75vw;
+}

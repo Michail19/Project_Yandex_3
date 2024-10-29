@@ -1,0 +1,4 @@
+.places {
+    display: grid;
+    grid-row-gap: 10vh;
+}
