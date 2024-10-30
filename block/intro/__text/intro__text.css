@@ -17,11 +17,13 @@
 @media screen and (max-width: 1024px) and (min-width: 768px) { 
     .intro__text {
         margin: 5vh 0;
+        font-size: 16pt;
     }
 } 
 
 @media screen and (max-width: 768px) and (min-width: 320px) { 
     .intro__text {
         margin: 5vh 0;
+        font-size: 12pt;
     }
 }

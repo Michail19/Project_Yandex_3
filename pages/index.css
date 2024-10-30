@@ -14,6 +14,7 @@
 @import url(../block/lead/lead.css);
 
 @import url(../block/intro/__list/intro__list.css);
+@import url(../block/intro/__list/_bold/intro__list_bold.css);
 @import url(../block/intro/__text/intro__text.css);
 @import url(../block/intro/__title/intro__title.css);
 @import url(../block/intro/intro.css);

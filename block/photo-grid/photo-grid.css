@@ -5,14 +5,14 @@
 
 @media screen and (min-width: 1280px) { 
     .photo-grid {
-        margin: 10vh 2vw;
+        margin: 10vh 14vw;
         grid-template-columns: repeat(4, 1fr);
     }
 } 
 
 @media screen and (max-width: 1280px) and (min-width: 1024px) { 
     .photo-grid {
-        margin: 8vh 1.5vw;
+        margin: 8vh 4vw;
         grid-template-columns: repeat(3, 1fr);
     }
 } 
