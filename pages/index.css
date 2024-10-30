@@ -1,8 +1,8 @@
 @import url(../block/root/root.css);
 
+@import url(../block/header/__lang-link/header__lang-link.css);
 @import url(../block/header/__lang-link/_en/header__lang-link_en.css);
 @import url(../block/header/__lang-link/_ru/header__lang-link_ru.css);
-@import url(../block/header/__lang-link/header__lang-link.css);
 @import url(../block/header/__logo/header__logo.css);
 @import url(../block/header/header.css);
 

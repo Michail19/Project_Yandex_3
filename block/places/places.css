@@ -2,3 +2,27 @@
     display: grid;
     grid-row-gap: 10vh;
 }
+
+@media screen and (min-width: 1280px) { 
+    .places {
+        margin-left: 4vw; 
+    }
+} 
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) { 
+    .places {
+        margin-left: 2vw; 
+    }
+} 
+
+@media screen and (max-width: 1024px) and (min-width: 768px) { 
+    .places {
+        margin-left: 2vw; 
+    }
+} 
+
+@media screen and (max-width: 768px) and (min-width: 320px) { 
+    .places {
+        margin-left: 1.5vw; 
+    }
+}

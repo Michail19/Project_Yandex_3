@@ -1,0 +1,23 @@
+@media screen and (min-width: 1280px) { 
+    .intro {
+        margin-left: 14.5vw; 
+    }
+} 
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) { 
+    .intro {
+        margin-left: 4vw; 
+    }
+} 
+
+@media screen and (max-width: 1024px) and (min-width: 768px) { 
+    .intro {
+        margin-left: 2.5vw; 
+    }
+} 
+
+@media screen and (max-width: 768px) and (min-width: 320px) { 
+    .intro {
+        margin-left: 1.5vw; 
+    }
+}

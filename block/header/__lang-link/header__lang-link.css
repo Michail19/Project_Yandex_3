@@ -4,4 +4,28 @@
     color: white;
     text-decoration: none;
  }
+
+@media screen and (min-width: 1280px) { 
+    .header__lang-link {
+        font-size: 24px;
+    }
+} 
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) { 
+    .header__lang-link {
+        font-size: 24px;
+    }
+} 
+
+@media screen and (max-width: 1024px) and (min-width: 768px) { 
+    .header__lang-link {
+        font-size: 24px;
+    }
+} 
+
+@media screen and (max-width: 768px) and (min-width: 320px) { 
+    .header__lang-link {
+        font-size: 18px;
+    }
+}
     
