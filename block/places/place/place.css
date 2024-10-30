@@ -1,6 +1,29 @@
 .place {
     display: grid;
-    grid-column-gap: 2vw;
-    grid-row-gap: 1.5vh;
-    grid-template-columns: repeat(2, 1fr);
 }
+
+@media screen and (min-width: 1280px) {
+    .place {
+        grid-template-columns: 1fr 2fr; 
+        grid-template-rows: auto auto;
+        grid-column-gap: 2vw;
+        grid-row-gap: 5vh;
+        grid-template-areas: 
+            "title link"
+            "image text"
+            "image text";
+    }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+    
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
+    
+}
+

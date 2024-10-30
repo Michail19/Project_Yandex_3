@@ -1,8 +1,14 @@
+.place__title {
+    margin: 0;
+    grid-area: title;
+}
+
 @media screen and (min-width: 1280px) { 
     .place__title {
         grid-column: 1; 
         grid-row: 1;
         font-size: 72pt;
+        line-height: 76pt;
     }
 } 
 
@@ -11,6 +17,7 @@
         grid-column: 1; 
         grid-row: 1;
         font-size: 72pt;
+        line-height: 76pt;
     }
 } 
 
@@ -19,6 +26,7 @@
         grid-column-start: 1;
         grid-column-end: 1;
         font-size: 42pt;
+        line-height: 46pt;
     }
 } 
 
@@ -27,5 +35,6 @@
         grid-column-start: 1;
         grid-column-end: 1;
         font-size: 32pt;
+        line-height: 35pt;
     }
 }
