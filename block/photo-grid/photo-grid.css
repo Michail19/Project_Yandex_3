@@ -5,7 +5,7 @@
 
 @media screen and (min-width: 1280px) { 
     .photo-grid {
-        margin: 10vh 14vw;
+        margin: 10vh 5vw;
         grid-template-columns: repeat(4, 1fr);
     }
 } 
