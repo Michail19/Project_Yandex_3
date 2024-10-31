@@ -1,11 +1,18 @@
-.place__paragraph {
-    align-self: start;
-    grid-area: text;
+@media screen and (max-width: 767px) and (min-width: 320px) { 
+    .place__paragraph {
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
+    
+    .place__paragraph {
+        font-size: 16pt;
+        line-height: 163%;
+    }
 }
 
-@media screen and (min-width: 1280px) { 
+@media screen and (max-width: 1023px) and (min-width: 768px) { 
     .place__paragraph {
-        font-size: 18pt;
+        font-size: 16pt;
         line-height: 163%;
     }
     
@@ -41,9 +48,9 @@
     }
 } 
 
-@media screen and (max-width: 1023px) and (min-width: 768px) { 
+@media screen and (min-width: 1280px) { 
     .place__paragraph {
-        font-size: 16pt;
+        font-size: 18pt;
         line-height: 163%;
     }
     
@@ -60,14 +67,7 @@
     }
 } 
 
-@media screen and (max-width: 767px) and (min-width: 320px) { 
-    .place__paragraph {
-        grid-column-start: 2;
-        grid-column-end: 2;
-    }
-    
-    .place__paragraph {
-        font-size: 16pt;
-        line-height: 163%;
-    }
+.place__paragraph {
+    align-self: start;
+    grid-area: text;
 }

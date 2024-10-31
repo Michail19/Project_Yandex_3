@@ -1,7 +1,20 @@
-.lead__title {
-    text-align: center;
-    margin: 5vh 0 0 0;
+@media screen and (max-width: 767px) and (min-width: 320px) { 
+    .lead__title {
+        font-size: 2.5rem;
+    }
 }
+
+@media screen and (max-width: 1023px) and (min-width: 768px) { 
+    .lead__title {
+        font-size: 6rem;
+    }
+} 
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) { 
+    .lead__title {
+        font-size: 6rem;
+    }
+} 
 
 @media screen and (min-width: 1280px) { 
     .lead__title {
@@ -9,20 +22,7 @@
     }
 } 
 
-@media screen and (max-width: 1280px) and (min-width: 1024px) { 
-    .lead__title {
-        font-size: 6rem;
-    }
-} 
-
-@media screen and (max-width: 1024px) and (min-width: 768px) { 
-    .lead__title {
-        font-size: 6rem;
-    }
-} 
-
-@media screen and (max-width: 768px) and (min-width: 320px) { 
-    .lead__title {
-        font-size: 2.5rem;
-    }
+.lead__title {
+    text-align: center;
+    margin: 5vh 0 0 0;
 }

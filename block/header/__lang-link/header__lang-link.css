@@ -1,31 +1,14 @@
+@media screen and (max-width: 767px) and (min-width: 320px) { 
+    .header__lang-link {
+        font-size: 18px;
+    }
+}
+
 .header__lang-link {
     margin-left: 2vw;
     margin-bottom: 0.25vh;
     color: white;
     text-decoration: none;
+    font-size: 24px;
  }
-
-@media screen and (min-width: 1280px) { 
-    .header__lang-link {
-        font-size: 24px;
-    }
-} 
-
-@media screen and (max-width: 1280px) and (min-width: 1024px) { 
-    .header__lang-link {
-        font-size: 24px;
-    }
-} 
-
-@media screen and (max-width: 1024px) and (min-width: 768px) { 
-    .header__lang-link {
-        font-size: 24px;
-    }
-} 
-
-@media screen and (max-width: 768px) and (min-width: 320px) { 
-    .header__lang-link {
-        font-size: 18px;
-    }
-}
     
