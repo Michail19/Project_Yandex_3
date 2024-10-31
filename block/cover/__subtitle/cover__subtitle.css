@@ -1,3 +1,12 @@
+.cover__subtitle {
+    margin: 0;
+    text-align: center;
+    grid-area: 1 / 1 / -1 / -1;
+    z-index: 3;
+    font-size: 18pt;
+    line-height: 22pt;
+}
+
 @media screen and (max-width: 767px) and (min-width: 320px) {
     
 }
@@ -9,24 +18,13 @@
 @media screen and (max-width: 1279px) and (min-width: 1024px) {
     .cover__subtitle {
         width: 45vw;
-        padding-top: 45vh;
+        margin-top: 20vh;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .cover__subtitle {
         width: 35vw;
-        padding-top: 55vh;
+        margin-top: 20vh;
     }
-}
-
-.cover__subtitle {
-    margin: 0;
-    text-align: center;
-    justify-self: center;
-    grid-column: 1 / -1;
-    grid-row: 1 / -1;
-    z-index: 3;
-    font-size: 18pt;
-    line-height: 22pt;
 }
