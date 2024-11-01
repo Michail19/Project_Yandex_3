@@ -2,6 +2,13 @@
     color: white;
     text-decoration: none;
     text-align: center;
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.footer__link:hover {
+    opacity: 0.5;
+    transition: .5s ease;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {

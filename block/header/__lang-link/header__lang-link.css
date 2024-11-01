@@ -4,7 +4,14 @@
     color: white;
     text-decoration: none;
     font-size: 1.5rem;
- }
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.header__lang-link:hover {
+    opacity: 0.5;
+    transition: .5s ease;
+}
 
 .header__lang-link:nth-child(2) {
     grid-column: 2;
