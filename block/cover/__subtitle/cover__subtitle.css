@@ -8,8 +8,8 @@
 @media screen and (max-width: 767px) and (min-width: 320px) {
     .cover__subtitle {
         width: 80vw;
-        font-size: 14pt;
-        line-height: 16pt;
+        font-size: 12pt;
+        line-height: 14pt;
         margin-top: 10vh;
     }
 }
