@@ -1,9 +1,3 @@
-@media screen and (max-width: 767px) and (min-width: 320px) {
-    .header {
-        height: 42px;
-    }
-}
-
 .header {
     display: flex;
     flex-flow: row;
@@ -11,4 +5,10 @@
     justify-content: flex-end;
     margin: 2.25vh 2.75vw;
     height: 52px;
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+    .header {
+        height: 42px;
+    }
 }
