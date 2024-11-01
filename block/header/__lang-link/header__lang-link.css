@@ -6,6 +6,7 @@
     font-size: 1.5rem;
     opacity: 1;
     transition: .5s ease;
+    z-index: 2;
 }
 
 .header__lang-link:hover {
