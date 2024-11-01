@@ -1,15 +1,21 @@
 .place {
     display: grid;
     grid-template-columns: 1fr 1fr; 
-    grid-template-rows: auto auto auto;
+    grid-template-rows: repeat(auto, 3);
 }
 
 @media screen and (max-width: 767px) and (min-width: 320px) {
-    
+    .place {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(auto, 5);
+    }
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
-    
+    .place {
+        grid-column-gap: 2vw;
+        grid-row-gap: 10vh;
+    }
 }
 
 @media screen and (max-width: 1279px) and (min-width: 1024px) {
