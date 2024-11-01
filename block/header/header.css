@@ -1,14 +1,15 @@
 .header {
-    display: flex;
+    display: grid;
     flex-flow: row;
     align-items: flex-end;
     justify-content: flex-end;
     margin: 2.25vh 2.75vw;
-    height: 52px;
+    height: 10vh;
+    grid-template-columns: repeat(1fr, 3);
 }
 
 @media screen and (max-width: 767px) and (min-width: 320px) {
     .header {
-        height: 42px;
+        height: 8vh;
     }
 }

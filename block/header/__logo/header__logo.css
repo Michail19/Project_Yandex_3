@@ -5,13 +5,13 @@
     position: absolute;
     left: 0;
     margin-left: 3vw;
-    width: 176px;
-    height: 52px;
+    width: 100%;
+    height: 10vh;
 }
 
 @media screen and (max-width: 767px) and (min-width: 320px) {
     .header__logo {
-        width: 142px;
-        height: 42px;
+        width: 80%;
+        height: 8vh;
     }
 }
