@@ -2,3 +2,9 @@
     display: grid;
     grid-template-columns: 1fr;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .lead__group {
+        width: 90%;
+    }
+}
