@@ -1,5 +1,10 @@
+.place__image {
+    
+}
+
 @media screen and (max-width: 767px) and (min-width: 320px) { 
     .place__image {
+        grid-column: 1;
     }
 }
 
@@ -29,7 +34,3 @@
         height: auto;
     }
 } 
-
-.place__image {
-    grid-area: image;
-}
