@@ -1,3 +1,12 @@
+.lead__group__image {
+    background-image: url(../../../../images/lead-polka.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    grid-area: 1 / 1 / -1 / -1;
+    object-fit: cover; 
+}
+
 @media screen and (max-width: 767px) and (min-width: 320px) { 
     .lead__group__image {
         width: 100vw;
@@ -27,10 +36,3 @@
         margin: 0 20vw;
     }
 } 
-
-.lead__group__image {
-    background-image: url(../../../../images/lead-polka.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-size: 100% 100%; 
-}

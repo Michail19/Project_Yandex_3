@@ -1,3 +1,7 @@
+.lead__group__caption {
+    text-transform: uppercase;
+}
+
 @media screen and (max-width: 767px) and (min-width: 320px) { 
     .lead__group__caption {
         margin-left: 1.25vw;
@@ -21,7 +25,3 @@
         margin-left: 20vw;
     }
 } 
-
-.lead__group__caption {
-    text-transform: uppercase;
-}

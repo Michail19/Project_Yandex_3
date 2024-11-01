@@ -5,26 +5,32 @@
     z-index: 3;
     font-size: 72pt;
     line-height: 76pt;
+    margin-top: -20vh;
 }
 
 @media screen and (max-width: 767px) and (min-width: 320px) {
-    
+     .cover__title {
+        width: 55vw;
+        font-size: 32pt;
+        line-height: 35pt;
+        margin-top: -10vh;
+    }
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
-    
+     .cover__title {
+        width: 75vw;
+    }
 }
 
 @media screen and (max-width: 1279px) and (min-width: 1024px) {
     .cover__title {
         width: 55vw;
-        margin-top: -20vh;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .cover__title {
         width: 45vw;
-        margin-top: -20vh;
     }
 }
